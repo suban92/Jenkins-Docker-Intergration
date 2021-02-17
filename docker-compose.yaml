@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   chaperoo-client:
-    image: dwalker0357/chaperoo-client:${app_version}
+    image: suban92/chaperoo-client:${app_version}
     build: .
     ports:
       - target: 80
